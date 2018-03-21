@@ -1,0 +1,28 @@
+{
+  "companies": [
+    {
+      "name": "IT-teaduskonna üliõpilaskogu",
+      "logo": "ituk.svg",
+      "pdf": "ituk.svg",
+      "description": "Läbi aegade on ITÜK korda saatnud nii mõndagi huvitavat, kui peamiselt oleme olemas just selleks, et  TTÜ IT teaduskonna tudengitel oleks ülikoolis veelgi parem ja lõbusam õppida, palju huvitavat ette võtta ning erinevaid võimalusi end harida. ITÜKil on kõige selle jaoks vahendid olemas!",
+      "links": [
+        {
+          "name": "globe",
+          "url": "https://ituk.ee"
+        },
+        {
+          "name": "facebook",
+          "url": "https://facebook.com/ituk.ttu"
+        },
+        {
+          "name": "instagram",
+          "url": "https://instagram.com/ituk.ttu"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/ituk-ttu"
+        }
+      ]
+    }
+  ]
+}
