@@ -5,11 +5,10 @@
     .company-text
       h2.company-name {{ company.name }}
       p.company-description {{ company.description }}
-      .tags
-        .tag(v-for="tag in company.tags") {{ tag }}
     .company-links
       .separator
-      a.link(v-for="link in company.links", :href="link.url"): icon(:name="link.name" scale="1.6")
+      a.link(:href="getInfoSheetUrl(company.pdf)" target="_blank"): icon(name="file-pdf-o" scale="1.6")
+      a.link(:href="company.website" target="_blank"): icon(name="globe" scale="1.6")
 </template>
 
 <script>
@@ -17,8 +16,11 @@
     name: 'Company',
     props: ['company'],
     methods: {
-      getLogoUrl: function (name) {
-        return '/static/logos/' + name
+      getLogoUrl: function (logoName) {
+        return '/static/logos/' + logoName
+      },
+      getInfoSheetUrl: function (infosheetName) {
+        return '/static/infosheets/' + infosheetName
       }
     }
   }
