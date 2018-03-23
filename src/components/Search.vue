@@ -74,6 +74,12 @@
     margin-bottom: 70px;
     color: #000;
   }
+
+  @media screen and (max-width: 480px) {
+    .title {
+      font-size: 1.8em;
+    }
+  }
 </style>
 
 <style>
