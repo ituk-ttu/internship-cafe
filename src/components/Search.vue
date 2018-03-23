@@ -10,6 +10,10 @@
         masonry.companies(:cols="{default: 4, 1279: 3, 959: 2, 639: 1}", :gutter="30")
           company.company(v-for="company in companies",
           :key="company.name", :company="company")
+      p.footer
+        span.logo-purple >
+        span.logo-black itük
+        span.logo-purple _
 </template>
 
 <script>
@@ -107,5 +111,15 @@
     border-radius: 5px;
     font-size: 0.7em;
     background-color: #eee;
+  }
+  .footer {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .logo-purple {
+    color: #870042
+  }
+  .logo-black {
+    color: #000
   }
 </style>
