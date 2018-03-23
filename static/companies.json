@@ -1,11 +1,115 @@
 {
   "companies": [
     {
+      "name": "Cybernetica",
+      "logo": "cybernetica.png",
+      "pdf": "Cybernetica.pdf",
+      "description": "Heckin good boys very jealous pupper ur givin me a spook boof yapper you are doin me a concern heckin good boys and girls, doggo long doggo corgo boofers doggo.",
+      "website": "https://cyber.ee"
+    },
+    {
+      "name": "Derivco",
+      "logo": "derivco.svg",
+      "pdf": "Derivco.pdf",
+      "description": "Heckin good boys very jealous pupper ur givin me a spook boof yapper you are doin me a concern heckin good boys and girls, doggo long doggo corgo boofers doggo.",
+      "website": "https://derivco.com"
+    },
+    {
+      "name": "Devtailor",
+      "logo": "devtailor.png",
+      "pdf": "Devtailor.jpg",
+      "description": "Heckin good boys very jealous pupper ur givin me a spook boof yapper you are doin me a concern heckin good boys and girls, doggo long doggo corgo boofers doggo.",
+      "website": "https://devtailor.com"
+    },
+    {
+      "name": "Eesti Energia",
+      "logo": "eesti_energia.svg",
+      "pdf": "Eesti Energia.pdf",
+      "description": "Heckin good boys very jealous pupper ur givin me a spook boof yapper you are doin me a concern heckin good boys and girls, doggo long doggo corgo boofers doggo.",
+      "website": "https://energia.ee"
+    },
+    {
+      "name": "ERPLY",
+      "logo": "erply.png",
+      "pdf": "ERPLY.pdf",
+      "description": "Heckin good boys very jealous pupper ur givin me a spook boof yapper you are doin me a concern heckin good boys and girls, doggo long doggo corgo boofers doggo.",
+      "website": "https://erply.com"
+    },
+    {
+      "name": "Finestmedia",
+      "logo": "finestmedia.jpg",
+      "pdf": "Finestmedia.pdf",
+      "description": "Heckin good boys very jealous pupper ur givin me a spook boof yapper you are doin me a concern heckin good boys and girls, doggo long doggo corgo boofers doggo.",
+      "website": "https://finestmedia.ee"
+    },
+    {
+      "name": "Fujitsu",
+      "logo": "fujitsu.svg",
+      "pdf": "Fujitsu.pdf",
+      "description": "Heckin good boys very jealous pupper ur givin me a spook boof yapper you are doin me a concern heckin good boys and girls, doggo long doggo corgo boofers doggo.",
+      "website": "https://fujitsu.com/ee/"
+    },
+    {
       "name": "Icefire",
       "logo": "icefire.png",
-      "pdf": "icefire.pdf",
+      "pdf": "Icefire.pdf",
       "description": "Heckin good boys very jealous pupper ur givin me a spook boof yapper you are doin me a concern heckin good boys and girls, doggo long doggo corgo boofers doggo.",
       "website": "https://icefire.ee"
+    },
+    {
+      "name": "LHV",
+      "logo": "lhv.jpg",
+      "pdf": "LHV.pdf",
+      "description": "Heckin good boys very jealous pupper ur givin me a spook boof yapper you are doin me a concern heckin good boys and girls, doggo long doggo corgo boofers doggo.",
+      "website": "https://LHV.ee"
+    },
+    {
+      "name": "NATO Küberkaitse Kompetentsikeskus",
+      "logo": "ccdcoe.jpg",
+      "pdf": "NATO Küberkaitse Kompetentsikeskus.pdf",
+      "description": "Heckin good boys very jealous pupper ur givin me a spook boof yapper you are doin me a concern heckin good boys and girls, doggo long doggo corgo boofers doggo.",
+      "website": "https://ccdcoe.org/"
+    },
+    {
+      "name": "Net Group",
+      "logo": "netgroup.jpg",
+      "pdf": "Net Group.pdf",
+      "description": "Heckin good boys very jealous pupper ur givin me a spook boof yapper you are doin me a concern heckin good boys and girls, doggo long doggo corgo boofers doggo.",
+      "website": "https://netgroup.ee"
+    },
+    {
+      "name": "Nortal",
+      "logo": "nortal.svg",
+      "pdf": "Nortal.pdf",
+      "description": "Heckin good boys very jealous pupper ur givin me a spook boof yapper you are doin me a concern heckin good boys and girls, doggo long doggo corgo boofers doggo.",
+      "website": "https://nortal.ee"
+    },
+    {
+      "name": "Swedbank",
+      "logo": "swedbank.png",
+      "pdf": "Swedbank.pdf",
+      "description": "Heckin good boys very jealous pupper ur givin me a spook boof yapper you are doin me a concern heckin good boys and girls, doggo long doggo corgo boofers doggo.",
+      "website": "https://swedbank.ee"
+    },
+    {
+      "name": "SEB",
+      "logo": "seb.svg",
+      "description": "Heckin good boys very jealous pupper ur givin me a spook boof yapper you are doin me a concern heckin good boys and girls, doggo long doggo corgo boofers doggo.",
+      "website": "https://seb.ee"
+    },
+    {
+      "name": "Telia",
+      "logo": "telia.png",
+      "pdf": "Telia.pdf",
+      "description": "Heckin good boys very jealous pupper ur givin me a spook boof yapper you are doin me a concern heckin good boys and girls, doggo long doggo corgo boofers doggo.",
+      "website": "https://telia.ee"
+    },
+    {
+      "name": "Vaimo",
+      "logo": "vaimo.jpg",
+      "pdf": "Vaimo.pdf",
+      "description": "Heckin good boys very jealous pupper ur givin me a spook boof yapper you are doin me a concern heckin good boys and girls, doggo long doggo corgo boofers doggo.",
+      "website": "https://vaimo.com"
     }
   ]
 }

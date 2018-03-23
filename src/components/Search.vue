@@ -1,11 +1,15 @@
 <template lang="pug">
-  div.container
-    h1.title Praktikakohvik
-    .companies-wrapper
-      p(v-if="companies == null") ...
-      masonry.companies(:cols="{default: 4, 1279: 3, 959: 2, 639: 1}", :gutter="30")
-        company.company(v-for="company in companies",
-        :key="company.name", :company="company")
+  div
+    .top-bar
+      .left
+      .right
+    div.container
+      h1.title PRAKTIKAKOHVIK
+      .companies-wrapper
+        p(v-if="companies == null"): icon(name="gear" scale="2" spin)
+        masonry.companies(:cols="{default: 4, 1279: 3, 959: 2, 639: 1}", :gutter="30")
+          company.company(v-for="company in companies",
+          :key="company.name", :company="company")
 </template>
 
 <script>
@@ -28,7 +32,24 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
+  .top-bar {
+    width: 100%;
+    height: 15px;
+    .left {
+      display: inline-block;
+      background-color: #DE1D3C;
+      width: 50%;
+      height: 100%;
+    }
+    .right {
+      display: inline-block;
+      background-color: #262272;
+      width: 50%;
+      height: 100%;
+    }
+  }
   .container {
+    margin-top: 45px;
     padding: 30px;
     text-align: center;
     .companies-wrapper {
@@ -43,10 +64,11 @@
     }
   }
   .title {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 3em;
     margin-top: 0;
     margin-bottom: 70px;
+    color: #000;
   }
 </style>
 

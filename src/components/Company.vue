@@ -6,9 +6,13 @@
       h2.company-name {{ company.name }}
       p.company-description {{ company.description }}
     .company-links
-      .separator
-      a.link(:href="getInfoSheetUrl(company.pdf)" target="_blank"): icon(name="file-pdf-o" scale="1.6")
-      a.link(:href="company.website" target="_blank"): icon(name="globe" scale="1.6")
+      a.link.info-link(:href="getInfoSheetUrl(company.pdf)" target="_blank" v-if="company.pdf != null")
+        span Info &nbsp
+          icon(name="book")
+      a.link.info-link.disabled(v-else disabled)
+        span Info &nbsp
+          icon(name="book")
+      a.link.web-link(:href="company.website" target="_blank"): icon(name="globe")
 </template>
 
 <script>
@@ -32,15 +36,17 @@
     border-radius: 10px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .15);
     width: 100%;
+    background-color: #fff;
     .company-image  {
       width: 100%;
+      padding-top: 15px;
       img {
-        width: 100%;
-        border-radius: 10px 10px 0 0;
+        width: calc(100% - 30px);
+        border-radius: 7px;
       }
     }
     .company-text {
-      padding: 0 20px 10px;
+      padding: 0 30px 10px;
       color: #222;
       .company-name {
         text-align: center;
@@ -48,31 +54,49 @@
         font-size: 1.6em;
         color: #111;
       }
-      .tags {
-        margin-left: -5px;
-        margin-right: -5px;
-        .tag {
-          display: inline-block;
-          padding: 5px;
-          margin: 5px;
-          border-radius: 5px;
-          font-size: 0.7em;
-          background-color: #eee;
-        }
-      }
     }
     .company-links {
-      text-align: center;
-      padding: 10px 15px 15px;
-      .separator {
-        border-top: 1px solid #ddd;
-        margin-bottom: 15px;
-      }
-      .link, .link:visited {
-        margin: 5px;
-        color: #b2305b;
-        &:hover, :focus {
-          color: #870042;
+      text-align: left;
+      width: 100%;
+      border-radius: 0 0 5px 5px;
+      overflow: hidden;
+      .link {
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
+        padding: 11px 10px 10px;
+        text-align: center;
+        margin: 10px;
+        border-radius: 7px;
+        span {
+          width: 100%;
+        }
+        &.info-link {
+          color: #DE1D3C;
+          border: 1px solid #DE1D3C;
+          width: calc(100% - 115px);
+          &:hover {
+            background-color: #DE1D3C;
+            color: #fff;
+          }
+          &.disabled, &:hover.disabled {
+            cursor: not-allowed;
+            opacity: 0.5;
+            color: #DE1D3C;
+            border: 1px solid #DE1D3C;
+            background-color: #fff;
+          }
+        }
+        &.web-link {
+          color: #272262;
+          border: 1px solid #272262;
+          width: 40px;
+          margin-left: 0;
+          &:hover {
+            background-color: #272262;
+            color: #fff;
+          }
         }
       }
     }
