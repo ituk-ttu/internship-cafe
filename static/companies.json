@@ -26,7 +26,7 @@
       "logo": "eesti_energia.svg",
       "pdf": "Eesti Energia.pdf",
       "description": "",
-      "website": "https://energia.ee"
+      "website": "https://www.energia.ee"
     },
     {
       "name": "ERPLY",
@@ -94,6 +94,7 @@
     {
       "name": "SEB",
       "logo": "seb.svg",
+      "pdf": "SEB.pdf",
       "description": "",
       "website": "https://seb.ee"
     },
